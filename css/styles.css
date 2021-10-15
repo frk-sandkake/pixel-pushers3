@@ -1,0 +1,137 @@
+body {
+  background-color: #fff;
+}
+
+.header {
+  background-color: #76e4eb;
+  height: 48px;
+}
+
+.container {
+  max-width: 987px;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.hero-banner {
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.column {
+  background-color: #315fa4;
+  display: block;
+  height: 420px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.column:nth-child(2) {
+  height: 620px;
+  margin: 0 auto;
+}
+
+.call-to-action {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: #1dcd79;
+  display: block;
+  height: 220px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #c01887;
+  height: 162px;
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    background-color: #fff;
+  }
+
+  .header {
+    background-color: transparent;
+  }
+
+  .header .container {
+    background-color: #76e4eb;
+    height: 48px;
+  }
+
+  .hero-banner {
+    background-color: #fff;
+  }
+
+  .hero-banner .container {
+    background-color: white;
+    height: 620px;
+    margin-bottom: 20px;
+  }
+
+  .column {
+    background-color: #315fa4;
+    display: inline-block;
+    height: 620px;
+    width: 399px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .column:nth-child(2) {
+    vertical-align: top;
+    width: 563px;
+    margin: 0 auto;
+  }
+
+  .box {
+    background-color: #1dcd79;
+    display: inline-block;
+    height: 220px;
+    width: 228px;
+    margin: 0 20px 20px 0;
+  }
+
+  .box:nth-child(4) {
+    margin-right: 0;
+  }
+
+  .box2 {
+    background-color: #1dcd79;
+    display: inline-block;
+    height: 220px;
+    width: 228px;
+    margin: 0 20px 20px 0;
+  }
+
+  .box2:nth-child(4) {
+    margin-right: 0;
+  }
+
+  .box3 {
+    background-color: #1dcd79;
+    display: inline-block;
+    height: 220px;
+    width: 228px;
+    margin: 0 20px 20px 0;
+  }
+
+  .box3:nth-child(4) {
+    margin-right: 0;
+  }
+
+  .footer {
+    background-color: #fff;
+  }
+
+  .footer .container {
+    background-color: #c01887;
+    height: 172px;
+    margin-top: -20px;
+  }
+}
