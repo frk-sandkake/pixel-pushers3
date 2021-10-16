@@ -132,6 +132,6 @@ body {
   .footer .container {
     background-color: #c01887;
     height: 172px;
-    margin-top: -20px;
+    margin: 0 auto;
   }
 }
